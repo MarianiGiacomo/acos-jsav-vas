@@ -1,5 +1,5 @@
 # acos-jsav-vas
-Acos-server content package for visual algorithm simulation exercises implemented with JSAV library. For tutorials on how to create exercises with the JSAV library please refer to the [JSAV documentation](http://jsav.io/) and the [JSAV repo](https://github.com/vkaravir/JSAV).
+[Acos-server](https://github.com/acos-server/acos-server) content package for visual algorithm simulation exercises implemented with JSAV library. For tutorials on how to create exercises with the JSAV library please refer to the [JSAV documentation](http://jsav.io/) and the [JSAV repo](https://github.com/vkaravir/JSAV).
 
 To use this packge you first need to install the [acos-jsav](https://github.com/MarianiGiacomo/acos-jsav) content type package, which provides the JSAV library and other necessary libraries.
 
@@ -38,4 +38,4 @@ const Content = {
 Static files should be placed in the `/static` folder, and can be accessed from for example a `<script>` tag with `/statis/jsav-vas/<your_file_in_static_folder`. Ideally stylesheets should be placed under `static/style` and JavaScript files under `static/js`, but it is up to you where you place them, since you will have to refer to them using their full path in the `static` folder. The exercise file that uses the JSAV library to create the exercises **must place the file in** `/static/exercises/`.
 
 ## Exercise grading
-The `acos-jsav` package listens for `jsav-log-event` and when a `jsav-exercise-grade` is detected, it extracts the points and sends them to acos-server.
+The `acos-jsav` package listens for `jsav-log-event` and when a `jsav-exercise-grade` is detected, it extracts the points and sends them to the Acos server.
