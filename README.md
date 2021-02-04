@@ -1,7 +1,7 @@
 # acos-jsav-vas
 Acos-server content package for visual algorithm simulation exercises implemented with JSAV library. For tutorials on how to create exercises with the JSAV library please refer to the [JSAV documentation](http://jsav.io/) and the [JSAV repo](https://github.com/vkaravir/JSAV).
 
-To use this packge you first need to install the [acos-jsav](https://github.com/MarianiGiacomo/acos-jsav) content type package.
+To use this packge you first need to install the [acos-jsav](https://github.com/MarianiGiacomo/acos-jsav) content type package, which provides the JSAV library and other necessary libraries.
 
 ## Adding new exercises
 New JSAV visual algorithm simulation exercises can be configured in `/content.js` like:
