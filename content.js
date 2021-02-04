@@ -2,7 +2,6 @@
 
 const Content = {
   insertion_sort: {
-    title: `Insertion Sort`,
     head: ``,
     body: `
     <div id="jsavcontainer">
@@ -19,7 +18,6 @@ const Content = {
     exercise_js: `insertionSort.js`
   },
   heap_build: {
-    title: `Heap Build`,
     head: `
     <link rel="stylesheet" href="/static/jsav-vas/style/heapPRO.css" type="text/css" />
     <script src="/static/jsav-vas/js/binaryheap.js"></script>
