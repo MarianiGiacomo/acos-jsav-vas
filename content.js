@@ -52,6 +52,38 @@ const Content = {
     </div>
     `,
     exercise_js: `heapBuildPRO.js`
+  },
+  Dijkstra: {
+    head: `
+    <link rel="stylesheet" href="/static/jsav-vas/style/DijkstraPE.css" />
+    <script src="/static/jsav-vas/js/graphUtils.js"></script>
+    `,
+    body: `
+    <div id="container">
+      <table class="proHeaderTable">
+        <tr>
+          <td class="headerCenter">
+            <p class="jsavexercisecontrols"></p>
+          </td>
+        </tr>
+      </table>
+      <form class="avcontainer">
+        <div class="jsavcanvas">
+          <h1>Dijkstra's Algorithm Proficiency Exercise</h1>
+          <p class="instructLabel">Instructions</p>
+          <p class="instructions">Reproduce the behavior of Dijkstra's Algorithm
+            for the given graph below. Click on the <strong>edges</strong>
+            in the order they are traversed by the algorithm.
+            Start with Node A. In case of similar costs, add nodes alphabetically.
+          </p>
+          <p id="procontrols">
+            <span class="jsavscore"></span>
+          </p>
+        </div>
+      </form>
+     </div>
+    `,
+    exercise_js: 'DijkstraPE.js'
   }
 }
 
