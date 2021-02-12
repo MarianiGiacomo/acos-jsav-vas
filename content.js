@@ -51,7 +51,7 @@ const Content = {
       </form>
     </div>
     `,
-    exercise_js: `heapBuildPRO.js`
+    exercise_js: `heapbuildPRO.js`
   },
   Dijkstra: {
     head: `
